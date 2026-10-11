@@ -1,0 +1,15 @@
+export const L10N_KEYS = {
+  CommonOk: 'common.ok',
+  CommonCancel: 'common.cancel',
+  CommonConfirm: 'common.confirm',
+  CommonClose: 'common.close',
+  MenuStartGame: 'menu.start_game',
+  MenuSettings: 'menu.settings',
+  MenuExit: 'menu.exit',
+  DialogNoCurrency: 'dialog.no_currency',
+  DialogSaveSuccess: 'dialog.save_success',
+  DialogSaveFailed: 'dialog.save_failed',
+  DialogCurrencyChanged: 'dialog.currency_changed',
+  DialogLevelUnlocked: 'dialog.level_unlocked',
+  DialogItemsCollected: 'dialog.items_collected',
+} as const;

@@ -1,0 +1,8 @@
+{
+  "manifestUrl": "https://cdn.example.com/hotupdate/project.manifest",
+  "versionUrl": "https://cdn.example.com/hotupdate/version.manifest",
+  "storagePath": "hotupdate/",
+  "timeoutMs": 5000,
+  "maxRetry": 3,
+  "checkOnStartup": false
+}

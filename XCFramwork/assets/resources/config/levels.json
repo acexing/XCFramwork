@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "levels": [
+    {
+      "id": "level_001",
+      "name": "第一关",
+      "difficulty": 1,
+      "unlockCondition": "",
+      "reward": ["item_001"],
+      "scene": "Level01"
+    },
+    {
+      "id": "level_002",
+      "name": "第二关",
+      "difficulty": 2,
+      "unlockCondition": "level_001",
+      "reward": ["item_001", "item_002"],
+      "scene": "Level02"
+    },
+    {
+      "id": "level_003",
+      "name": "第三关",
+      "difficulty": 3,
+      "unlockCondition": "level_002",
+      "reward": ["item_002"],
+      "scene": "Level03"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "DemoTheme": "b6f431e3-ef01-4274-b5d1-5da23df540e6",
+  "UISprites": "99726533-b068-4bb3-8770-04ad9fd2f6a3",
+  "UIBuilder": "2d606e1b-38aa-4880-9521-4b2a903fdb3e",
+  "BaseDialog": "d85dfd7f-a2b4-47e2-b732-eaea639f334c",
+  "ShopDialogBase": "d5522fbc-bb19-4133-8308-3811e0f66a54",
+  "MainMenuView": "55479a89-25a0-4763-8c54-90d3934d8d96",
+  "LoginDialog": "66aa44be-8fb2-46a9-9c40-6bd5796c5742",
+  "StageView": "d2aea8bb-99cb-4872-9e8c-f14f4edd33cc",
+  "StageStartDialog": "3c20ce9a-62d1-4497-9272-f96aaac78c7a",
+  "StageCompleteDialog": "75f3917b-ff89-4336-9845-431fe0cad539",
+  "LevelUpDialog": "c184fd64-1166-46a7-a401-975c88ea1a74",
+  "MissionDialog": "16c8535e-5848-4320-adc6-5277bb98cff7",
+  "ShopCoinDialog": "be10fe5b-93a7-4f16-81b6-9c447a12773c",
+  "ShopGemDialog": "1566fd25-ca4c-48ec-8d6c-9bbed35d0f39",
+  "ShopLifeDialog": "0c8dd13e-85c0-4506-b773-fb83498424ae",
+  "ItemShopView": "0597bc3c-e48e-446c-b3a0-126796024bb4",
+  "MessageDialog": "c38fa152-9a25-4e28-8223-dd140d9f8983",
+  "SettingsDialog": "9abad6aa-cb21-4b32-a6c7-ff08f49ba874",
+  "PauseDialog": "5f8c4c31-18e3-4fc9-a775-730887a5b0da",
+  "RankingDialog": "6066597b-4e21-4497-af69-bc68789f1609",
+  "DemoUIController": "4eb6c554-5b17-4da8-8ea7-61791c886c04"
+}

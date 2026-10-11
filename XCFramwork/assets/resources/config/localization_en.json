@@ -1,0 +1,32 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "back": "Back"
+  },
+  "menu": {
+    "start_game": "Start Game",
+    "settings": "Settings",
+    "exit": "Exit",
+    "continue": "Continue",
+    "new_game": "New Game"
+  },
+  "dialog": {
+    "no_currency": "Not enough coins to purchase",
+    "save_success": "Save successful",
+    "save_failed": "Save failed",
+    "currency_changed": "Coins changed: {amount}",
+    "level_unlocked": "Level {level} unlocked",
+    "items_collected": "Collected {count} items"
+  },
+  "settings": {
+    "language": "Language",
+    "sound": "Sound",
+    "music": "Music",
+    "quality": "Quality"
+  }
+}

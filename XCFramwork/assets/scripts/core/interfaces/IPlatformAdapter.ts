@@ -1,3 +1,7 @@
+import type { IStorageAdapter } from './IStorageAdapter';
+
+export type { IStorageAdapter };
+
 export interface PlatformCapabilities {
   cloudSave: boolean;
   achievements: boolean;
@@ -8,14 +12,6 @@ export interface PlatformCapabilities {
   vibration: boolean;
 }
 
-export interface IStorageAdapter {
-  read(key: string): Promise<string | null>;
-  write(key: string, data: string): Promise<void>;
-  delete(key: string): Promise<void>;
-  exists(key: string): Promise<boolean>;
-  listKeys(prefix: string): Promise<string[]>;
-}
-
 export interface IPlatformAdapter {
   getPlatformName(): string;
   getCapabilities(): PlatformCapabilities;
@@ -23,4 +19,10 @@ export interface IPlatformAdapter {
   openExternalUrl(url: string): Promise<void>;
   vibrate(duration: number): Promise<void>;
   getStorageAdapter(): IStorageAdapter;
+  unlockAchievement(achievementId: string): Promise<void>;
+  setStat(statName: string, value: number): Promise<void>;
+  getStat(statName: string): Promise<number>;
+  isCloudSaveEnabled(): boolean;
+  getBackKeyHandler(): (() => boolean) | null;
+  shareContent(title: string, content: string): Promise<void>;
 }

@@ -5,13 +5,15 @@ import {
   IStorageAdapter,
   PlatformCapabilities,
 } from '../core/interfaces/IPlatformAdapter';
-import { LocalStorageAdapter } from './LocalStorageAdapter';
+import { DesktopStorageAdapter } from './DesktopStorageAdapter';
+
+const LOGGER_TAG = 'DesktopAdapter';
 
 export class DesktopAdapter implements IPlatformAdapter {
   private storageAdapter: IStorageAdapter;
 
   constructor() {
-    this.storageAdapter = new LocalStorageAdapter();
+    this.storageAdapter = new DesktopStorageAdapter();
   }
 
   getPlatformName(): string {
@@ -33,7 +35,7 @@ export class DesktopAdapter implements IPlatformAdapter {
   quitGame(): Promise<void> {
     return new Promise((resolve) => {
       if (DEBUG) {
-        console.warn('[DesktopAdapter] 开发环境不执行退出');
+        console.warn(`[${LOGGER_TAG}] 开发环境不执行退出`);
         resolve();
         return;
       }
@@ -57,5 +59,29 @@ export class DesktopAdapter implements IPlatformAdapter {
 
   getStorageAdapter(): IStorageAdapter {
     return this.storageAdapter;
+  }
+
+  unlockAchievement(_achievementId: string): Promise<void> {
+    return Promise.resolve();
+  }
+
+  setStat(_statName: string, _value: number): Promise<void> {
+    return Promise.resolve();
+  }
+
+  getStat(_statName: string): Promise<number> {
+    return Promise.resolve(0);
+  }
+
+  isCloudSaveEnabled(): boolean {
+    return false;
+  }
+
+  getBackKeyHandler(): (() => boolean) | null {
+    return null;
+  }
+
+  shareContent(_title: string, _content: string): Promise<void> {
+    return Promise.resolve();
   }
 }

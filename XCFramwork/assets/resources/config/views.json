@@ -1,0 +1,130 @@
+{
+  "views": [
+    {
+      "id": "ConfirmDialog",
+      "prefab": "prefabs/ui/common/ConfirmDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "ToastMessage",
+      "prefab": "prefabs/ui/common/ToastMessage",
+      "bundle": "resources",
+      "type": 2,
+      "cache": false
+    },
+    {
+      "id": "LoadingMask",
+      "prefab": "prefabs/ui/common/LoadingMask",
+      "bundle": "resources",
+      "type": 3,
+      "cache": true
+    },
+    {
+      "id": "MainMenu",
+      "prefab": "prefabs/ui/screens/MainMenu",
+      "bundle": "resources",
+      "type": 0,
+      "cache": true
+    },
+    {
+      "id": "StageView",
+      "prefab": "prefabs/ui/screens/StageView",
+      "bundle": "resources",
+      "type": 0,
+      "cache": true
+    },
+    {
+      "id": "ItemShopView",
+      "prefab": "prefabs/ui/screens/ItemShopView",
+      "bundle": "resources",
+      "type": 0,
+      "cache": true
+    },
+    {
+      "id": "LoginDialog",
+      "prefab": "prefabs/ui/dialogs/LoginDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "StageStartDialog",
+      "prefab": "prefabs/ui/dialogs/StageStartDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "StageCompleteDialog",
+      "prefab": "prefabs/ui/dialogs/StageCompleteDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "LevelUpDialog",
+      "prefab": "prefabs/ui/dialogs/LevelUpDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "MissionDialog",
+      "prefab": "prefabs/ui/dialogs/MissionDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "ShopCoinDialog",
+      "prefab": "prefabs/ui/dialogs/ShopCoinDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "ShopGemDialog",
+      "prefab": "prefabs/ui/dialogs/ShopGemDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "ShopLifeDialog",
+      "prefab": "prefabs/ui/dialogs/ShopLifeDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "MessageDialog",
+      "prefab": "prefabs/ui/dialogs/MessageDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "SettingsDialog",
+      "prefab": "prefabs/ui/dialogs/SettingsDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "PauseDialog",
+      "prefab": "prefabs/ui/dialogs/PauseDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    },
+    {
+      "id": "RankingDialog",
+      "prefab": "prefabs/ui/dialogs/RankingDialog",
+      "bundle": "resources",
+      "type": 1,
+      "cache": false
+    }
+  ]
+}

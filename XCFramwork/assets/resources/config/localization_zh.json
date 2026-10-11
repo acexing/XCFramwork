@@ -1,0 +1,32 @@
+{
+  "common": {
+    "ok": "确定",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "loading": "加载中...",
+    "retry": "重试",
+    "back": "返回"
+  },
+  "menu": {
+    "start_game": "开始游戏",
+    "settings": "设置",
+    "exit": "退出",
+    "continue": "继续游戏",
+    "new_game": "新游戏"
+  },
+  "dialog": {
+    "no_currency": "金币不足，无法购买",
+    "save_success": "存档保存成功",
+    "save_failed": "存档保存失败",
+    "currency_changed": "金币变化: {amount}",
+    "level_unlocked": "关卡 {level} 已解锁",
+    "items_collected": "收集了 {count} 个物品"
+  },
+  "settings": {
+    "language": "语言",
+    "sound": "音效",
+    "music": "音乐",
+    "quality": "画质"
+  }
+}
